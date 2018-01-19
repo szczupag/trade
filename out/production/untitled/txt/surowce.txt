@@ -1,0 +1,35 @@
+ropa
+złoto
+miedź
+srebro
+pallad
+platyna
+nikiel
+aluminium
+ołów
+cynk
+ropa wti
+miedź comex
+bawełna
+benzyna
+canola
+cukier
+diesel
+drewno
+gaz ziemny
+kakao
+kauczuk
+kawa
+kukurydza
+mleko
+olej opałowy
+olej palmowy
+olej sojowy
+pszenica
+ryż
+rzepak
+soja
+sok pomarańczowy
+śruta sojowa
+wieprzowina
+wołowina

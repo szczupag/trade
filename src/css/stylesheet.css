@@ -1,0 +1,115 @@
+*{
+    -fx-text-fill: #F8F8F8;
+    -fx-background-insets: 0.0;
+    -fx-border-width: 0;
+}
+
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+}
+.scroll-bar:vertical .increment-button , .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 10 0 0;
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+	-fx-shape: " ";
+	-fx-padding:0;
+}
+
+.scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}
+
+.split-pane{
+    -fx-color: black;
+}
+
+.titled-pane{
+    -fx-body-color: #585858;
+    -fx-text-fill: #B8B8B8;
+    -fx-background-insets: 0.0;
+}
+
+#PanelKontrolny,#mainGrid{
+    -fx-background-color: #282828;
+    -fx-background-insets: 0.0;
+}
+#PanelInf .content{
+    -fx-background-color: #282828;
+}
+
+.titled-pane .content{
+    -fx-background-color: #B8B8B8;
+}
+
+.tab {
+    -fx-background-color: #383838;
+    -fx-background-insets: 0.0;
+}
+.tab:selected {
+    -fx-background-color: #B8B8B8;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: #282828;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0.0;
+}
+.tab:selected .focus-indicator {
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.label{
+    -fx-text-fill: #B8B8B8;
+}
+
+.button{
+    -fx-background-color: #7CAFC2;
+    -fx-text-fill: #F8F8F8;
+}
+
+.button:hover{
+    -fx-background-color: #DC9656;
+}
+
+.line-chart .content{
+    -fx-body-color: red;
+}
+
+#Wyjdz{
+    -fx-background-color: #585858;
+}
+#Wyjdz:hover{
+    -fx-background-color: #AB4642;
+}
+
+.list-cell{
+    -fx-text-fill: green;
+}
+
+.table-cell{
+    -fx-text-align: center;
+    -fx-text-fill: #282828;
+}
+
+#szczegolyText {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-box-border: transparent;
+}
+
+#zapis{
+    -fx-background-color: #A1B56C;
+}
+#zapis:hover{
+    -fx-background-color: #AB4642;
+}
